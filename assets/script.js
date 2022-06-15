@@ -13,7 +13,7 @@ document.body.appendChild(btn);
 var generateBtn = document.querySelector("#generate");
 
 //to make the list of variables/password length to select for the password, selections are going to need to be sotred in local storage
-/* var listEl = document.createElement("ul");
+var listEl = document.createElement("ul");
 var li1 = document.createElement("li");
 var li2 = document.createElement("li");
 var li3 = document.createElement("li");
@@ -35,7 +35,7 @@ listEl.appendChild(li4);
 listEl.appendChild(li5);
 favoriteEl.appendChild(listEl);
 
-localStorage.setItem(); //store chosen password length
+/*localStorage.setItem(); //store chosen password length
 localStorage.setItem(); //store if/not uppercase
 localStorage.setItem(); //store if/not lowercase
 localStorage.setItem(); //store if/not numbers
@@ -73,6 +73,4 @@ function generatePassword() {
 }
 // Add event listener to generate button
 document.getElementById("generate").addEventListener("click", writePassword);
-
-writePassword();
 
