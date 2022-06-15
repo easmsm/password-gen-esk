@@ -1,6 +1,6 @@
 # Random Password Generator
 
-This password generator creates a random, 8 character password using upper and lower case letters, numbers, and special characters. 
+This password generator creates a random password using upper and lower case letters, numbers, and special characters. 
 
 
 
@@ -10,5 +10,10 @@ This password generator creates a random, 8 character password using upper and l
 - Input will be validated
 
 
+**At Page Load**
+![Password Generator at Page Load](./assets/images/At%20Page%20Load.png)
 
 
+**After Clicking the Button**
+
+![Password Generator after Clicking Generate Password Button](./assets/images/After%20Clicking%20Button.png)
